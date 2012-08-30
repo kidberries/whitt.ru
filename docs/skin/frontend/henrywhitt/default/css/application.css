@@ -1,0 +1,65 @@
+h1 {
+  font-size: 2em;
+  line-height: 1;
+}
+
+.main.container {margin-top: 60px;}
+
+.products-grid .item { font-size: 12px; line-height: 1.2em; }
+.products-grid .item hr { margin: 0px 0; }
+.products-grid .item p { margin: 0 0 4px; line-height: 1.2em; }
+.products-grid .item .description { margin-top: 4px; }
+
+
+.item .thumbnail:hover {
+  border-color: #0088cc;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+          box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  cursor: pointer;
+}
+
+.bs-docs-sidenav > li > a:hover,
+.bs-docs-sidenav > li > a:focus {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0,0,0,.15);
+  color: #ffffff;
+  border-left:  1px solid #0081c2;
+  border-right: 1px solid #0081c2;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+#newsletter-validate-detail {
+  padding: 5px;
+}
+
+#search_mini_form input.search-query {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#search_mini_form button.btn.search-query {
+  margin-top: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 30px;
+}
+
+#search_mini_form button.btn.search-query i.icon-search {
+  margin-left: -8px;
+  margin-top: 0;
+}
+
+/* Product View */
+.product-view .product-name.well { padding: 0 19px; }
+.product-view .product-name.well h1 { font-size: 1.5em; }
+.box-collateral h2 { font-size: 1.2em; }
+
